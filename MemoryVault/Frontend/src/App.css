@@ -1,0 +1,76 @@
+:root {
+  --color-1: #ccd5cf;
+  --color-2: #d9c6c6;
+  --color-3: #d5e0e5;
+  --color-4: #adc0c8;
+  --color-5: #44486c;
+}
+
+body {
+  background-color: var(--color-1);
+  color: var(--color-5);
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--color-4);
+}
+
+.nav-logo {
+  height: 100px; /* Adjust as needed */
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between items */
+}
+
+.nav-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--color-5);
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: var(--color-5);
+  color: var(--color-3);
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color-5);
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Additional styles for better integration with the color theme */
+
+.logo-title-container .nav-logo {
+  margin-right: 10px;
+}
+
+* {
+  font-family: "Courier Prime", monospace;
+}
+
+#queryMemories,
+#addMemory {
+  font-size: 20px;
+}
+
+#memoryVault {
+  font-size: 30px;
+}

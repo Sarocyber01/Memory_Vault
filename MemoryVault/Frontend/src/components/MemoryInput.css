@@ -1,0 +1,39 @@
+/* src/components/MemoryInput.css */
+.memory-input {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.memory-input h2 {
+  margin-bottom: 20px;
+}
+
+.memory-input form {
+  display: flex;
+  flex-direction: column;
+}
+
+.memory-input textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.memory-input button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.memory-input button:hover {
+  background-color: #0056b3;
+}
+
+.memory-input .status {
+  margin-top: 10px;
+  font-weight: bold;
+}
